@@ -1,6 +1,10 @@
 // select all input fields using querySelectorAll in a variable
 const inputs = document.querySelectorAll('.code');
 
+
+// Add 'focused' class to the first input by default
+inputs[0].classList.add('focused');
+
 // code for focus management, run a loop on inputs node list
 inputs.forEach((input, index) => {
 	// run the below code for each input
